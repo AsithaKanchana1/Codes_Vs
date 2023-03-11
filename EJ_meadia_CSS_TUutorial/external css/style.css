@@ -1,0 +1,53 @@
+       /*heding 1 styles*/
+h1 ,h2{
+        background-color: gray;
+        color: rgb(0, 0, 0);/*this will change color of font*/
+        border-bottom: 5px solid black;/*with this it will ad boder to our background */
+        text-decoration: underline;
+    }
+    /*pharagraph styles*/
+p {
+        color: red;
+        font-size: 25px;
+        font-family: Helvetica;/*this will change font of the text*/
+    
+    }
+p.Blue-text {
+        color: blue;
+    
+
+    }
+p.green-text {
+        color: green;
+    }
+    /* <underline overline line trugh & more>
+h1.Underline{
+    text-decoration: underline;
+}
+h1.overline{
+    text-decoration: overline;
+}
+h1.line-true{
+    text-decoration: line-through;
+}
+h1.Underline-overline{
+    text-decoration: underline overline;
+}
+*/
+p.para2{
+    color: darkblue;
+    font-size: 25px;
+}
+/*italic font */
+p.para3{
+    color: darkblue;
+    font-size: 25px;
+    font-style: italic;
+}
+/**/
+
+body {       /*with thsi anythisn without style will be change accodinly*/
+        background-color: aliceblue;
+        font-family: Verdana,arial,Geneva,Arial Black;
+        font-weight: bold;
+    }
