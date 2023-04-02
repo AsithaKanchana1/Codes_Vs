@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn-with-Asitha</title>
+    <link rel="stylesheet" href="style.css"><!--Import CSS File -->
+
+</head>
+<body>
+    <header><!--Menu -->
+        <h2 class="logo">LWA</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Conatct</a>
+            <a href="#">Blogs</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-circle-outline"></ion-icon><!--Close Icone -->
+        </span>
+        <div class="form-box login">
+           <!--Loging Page-----------------------------------------------------------------#####-->
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box"><!--Input email-->
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box"><!--input paswd-->
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget"><!--remember me check box-->
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password?</a><!--fogot paswd-->
+                </div>
+                <button type="submit" class="btn">Login</button><!--loging btn-->
+                <div class="loging-regiser">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p><!--create new acc-->
+                </div>
+            </form>
+        </div>
+
+        <!--Registation page-----------------------------------------------------------------#####-->
+        <div class="form-box register">
+            <h2>Registation</h2>
+            <form action="#">
+                <div class="input-box"><!--Username input-->
+                    <span class="icon">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box"><!--Email Input-->
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box"><!--Passwd input-->
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget"><!--remember me box-->
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+
+                </div>
+                <button type="submit" class="btn">Register</button><!--register btn-->
+                <div class="loging-regiser">
+                    <p>Already have an account?<a href="#" class="loging-link">Loging</a></p><!--loging page-->
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scrypt.js"></script><!--JS File Connect-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><!--Icon Import (https://ionic.io/)-->
+</body>
+<!--Created by :Asitha Kanchana. © 2023-->
+<!--Contact Me :asitha.business2@gmail.com-->
+<!--Please Read <READ ME.txt > file for mor information-->
+
+</html>
