@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYLONE_PROJECTS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="blog-header">
+        <!--nav-bar-->
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="close-circle-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <a href="login-page.html" class="join-btn">JOIN NOW</a>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+        <!--nav-bar-end-->
+        
+        
+    </section>
+
+     <!------------- content------------->
+    <h1 class="u-cons">This Page Is Under Construction...</h1>
+
+    <!-------------footer------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus reprehenderit fuga quia quis unde, possimus,<br> laboriosam  excepturi, qui sed harum recusandae repudiandae. Mollitia perspiciatis <br> repudiandae laborum dolorem nobis qui.</p>
+        <div class="footer-icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="mede-with">
+            <p>Made with <ion-icon name="code"></ion-icon> by <span class="crea-name">Asitha Kanchana Palliyaguru</span></p>
+        </div>
+    </section>
+
+<!--JavaScrypt Toggle menue-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+</body>
+</html>
